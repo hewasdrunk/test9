@@ -1,0 +1,125 @@
+
+/* ---------------------框架设置----------------------- */
+
+html{height:100%;width:100%;}
+body{display:flex;flex-direction:column;height:100%;width:100%;}
+header{flex:0 0 auto;}
+.g-content{flex: 1 0 auto;width:100%;background:whitesmoke;}
+footer{flex: 0 0 auto;}
+.g-footer-f{position: fixed;bottom:0; width:100%;min-height: 5rem;}
+.footer-bg{height:5rem;filter:alpha(Opacity=50);-moz-Opacity:0.5;opacity:0.5;}
+
+
+/* ---------------------具体的头部设置----------------------- */
+/*-----头部top设置-----*/
+
+#top:hover #three{
+    visibility: visible;
+}
+#three img{max-width: 1.4rem;}
+#top a{text-decoration:none;color:#000;}
+#top{
+    height:2.5rem;
+    line-height: 2.5rem;
+    font-size: 14px;background:#fff;
+}
+
+
+/*-----头部导航设置-----*/
+ul,li{margin:0;padding:0;}
+#navbar-h .navbar-brand img{max-width: 8rem;margin-top:-8px;}
+/*#sumnav{margin:0;padding:0;}*/
+#navbar-h{
+    /*height:5.5rem;*/
+    padding-top:1rem;
+    padding-bottom:1rem;
+    margin-bottom:0;
+    /*margin-bottom:0;这个必须设置，才能让header的多余空白去掉*/
+    background:#20B176;border:none;
+}
+#navbar-h a{color:white;}
+
+/*-----轮播图设置-----*/
+.morohology-1{
+    margin:-0.5rem;padding:0;
+    color:#fff;
+}
+.morohology-2{
+    color:#fff;font-size:2rem;
+}
+.morohology-2>strong>span{
+    font-size:3.5rem;
+}
+
+.item img{
+    width:100%;
+    max-height:600px;
+}
+#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+}
+
+
+/* ---------------------具体的脚步设置----------------------- */
+footer{
+    background:#20B176;
+}
+.f-cess-1{padding-top:2rem;}
+.f-cess-1 ul{margin:2rem 0;}
+.f-cess-1 ul li{display:inline-block;padding:0.5rem 0.5rem;}
+.f-cess-1 ul li:first-child{padding-left:0;}
+
+.f-cess-1 ul li a{text-decoration: none;color:#fff;}
+.f-cess-1 h5{
+    font-size: 1.5rem;
+    color:#fff;
+}
+
+
+#f-row-1{position: relative;}
+.f-cess-3{
+    /*float:right;*/
+    position:absolute;
+    top:1rem;
+    right:0;
+    color:#fff;
+}
+.f-cess-3 h5{
+    font-size: 1.5rem;
+    color:#fff;
+}
+
+
+
+#f-row-2{
+    min-height: 2rem;
+    line-height: 2rem;
+    border-top:0.1rem solid #fff;
+}
+
+#f-row-2 span{
+    padding:0 0.2rem;
+    font-size:1rem;
+    color:#fff;
+}
+#f-row-2 span:nth-child(5){
+    padding-right:0.5rem;
+    border-right:0.1rem solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

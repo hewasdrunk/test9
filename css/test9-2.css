@@ -1,0 +1,78 @@
+
+
+/* ---------------------具体的内容设置----------------------- */
+/*-----头部横条图片-----*/
+#c-row-1 img{
+    width:100%;
+    max-height:600px;
+}
+.si-1{
+    padding:0 0.5rem;
+    font-size: 2rem;
+}
+
+/*-----左cell-----*/
+
+
+.left-cell{
+    background:#fff;
+    text-align: center;
+    margin-bottom:30px;
+    font-size:1.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    box-shadow: 0 1px 2px lightgrey;
+}
+.left-cell h4{
+    margin:0;
+    width:100%;
+    height:4rem;
+    line-height:4rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.left-cell ul{
+    width:100%;
+    margin-bottom:0;
+    padding:1.8rem 0;
+}
+.left-cell li{
+    margin-left:45%;
+    margin-bottom:1.5rem;
+    text-align: left;
+}
+.left-cell li a{text-decoration:none;color:#20B176;}
+.circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.left-cell li:hover div.circle{
+    background-color: #ffA500;
+}
+.left-cell li:hover a{
+    color:#ffA500;
+}
+/*-----右cell-----*/
+.right-cell{
+    margin-bottom:30px;
+    border: 1px solid lightgray;
+    box-shadow: 0 1px 2px lightgrey;
+    background-color: white;
+    line-height:3rem;
+
+}
+.rc-row-1{
+    border-bottom: 1px solid lightgrey;
+    padding:3rem;
+}
+.rc-row-1 img{
+    float:left;
+}
+.rc-row-2{
+    padding:3rem;
+}

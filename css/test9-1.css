@@ -1,0 +1,120 @@
+
+
+
+/* ---------------------具体的内容设置----------------------- */
+
+
+
+
+
+
+
+/*-----内容1设置-----*/
+.morohology-3{
+    position: relative;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#c-row-1 img{max-width: 4rem;max-height:3rem;}
+.morohology-3>p{
+    color:#989898;
+}
+
+.bdl-1d989{border-left:0.1rem dashed #989898;padding-left:2rem;}
+
+/*-----内容2设置-----*/
+.list-1{
+    display:inline-block;
+    padding:2rem;
+    background:url("../img/test8-1/roundness.png") no-repeat 50% 50%;
+    background-size: contain;
+    font-size:2rem;
+    color:#20B176;
+}
+.list-2{
+    display:inline-block;
+    padding:0.5rem;
+    background:url("../img/test8-1/triangle3.png") no-repeat 50% 50%;
+    background-size: contain;
+}
+.morohology-4 span:nth-child(2){
+    height:2rem;
+    padding:0 0.5rem;
+}
+.morohology-4{
+    position:relative;
+    float:left;
+    /*width:23%;*/
+    margin:1.5rem 1.2rem 1.5rem 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.morohology-4:after{
+    conotent:"";
+    clear:both;
+
+}
+/*-----内容3设置-----*/
+.f50:hover{
+    color:#20B176;
+}
+
+
+/*-----内容4设置-----*/
+
+.c-cell-1{
+    width:100%;
+    background:#fff;
+    overflow: hidden;
+
+    font-size: 0;
+}
+/*font-size: 0;用于去掉div之间的间隙*/
+.c-cell-2{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 12rem;
+    padding:0 1rem;
+    /*border:0.1rem solid #ff0000;*/
+}
+.c-cell-2>a{
+    width:100%;
+    display: inline-block;
+    /*line-height: 12rem;*/
+    margin:0;
+    /*padding:0;*/
+    padding:0 0.5rem;
+    list-style-type: none;
+    /*border:0.1rem solid #ff0000;*/
+}
+.c-cell-2>a>img{
+    width:100%;
+}
+.c-cell-2:hover{
+    z-index: 2;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+
+/*-----内容5设置-----*/
+#blogroll li{display:inline-block;margin:1rem 2rem 1rem 0;}
+#blogroll li a{
+    color:#989898;
+    cursor: pointer;text-decoration: none;
+}
+.go{
+    height:2rem;
+    line-height: 2rem;
+}
+.go:hover{
+    border-bottom: 1px solid #20B176;
+}
+
+
+

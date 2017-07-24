@@ -1,0 +1,182 @@
+
+
+html{font-size:62.5%;font-family:"Microsoft YaHei",sans-serif;}
+/*body{min-width:760px;}*/
+
+
+/*li{display: inline-block;}*/
+/*正常状态和访问过后的状态*/
+/*a:link,a:visited{color: inherit;}*/
+
+
+
+
+
+/* ---------------------公用 CSS----------------------- */
+/* float */
+.l{float:left;}
+.r{float:right;}
+/* clear */
+.cl{clear:both;}
+/* display */
+.dn{display:none;}
+.di{display:inline;}
+.db{display:block;}
+.dib{display:inline-block;}
+/*超链接文字词组不换行，可以设置为inline-block*/
+
+/* position */
+.rel{position:relative;}
+.abs{position:absolute;}
+/* overflow */
+.ovh{overflow:hidden;}
+.ova{overflow:auto;}
+/* text-align */
+.tc{text-align:center;}
+.tr{text-align:right;}
+.tl{text-align:left;}
+.tj{text-align:justify;}
+
+.vam{vertical-align:middle;}
+
+
+
+/* 块状元素水平居中 */
+.auto{margin-left:auto; margin-right:auto;}
+/* 大小不定元素垂直居中 */
+.dib-vam{display:inline-block; width:0; height:100%; vertical-align:middle;}
+/*图层定位水平垂直居中*/
+.pat{ position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);}
+/*flex水平垂直居中*/
+.df-cc{display:flex;justify-content: center;align-items: center;}
+/*table水平垂直居中*/
+.dtc-tcvm{display:table-cell;text-align:center;vertical-align: middle;}
+/*flex垂直居中*/
+.df-aic{display:flex;align-items: center;}
+
+
+
+
+
+/*弹性布局，不换行*/
+.df-fwno{display:flex;flex-wrap:nowrap;}
+/*每个项目两侧间隔相等。那么两个项目间的距离是间隔x2*/
+.df-jcsa{display:flex;justify-content: space-around;}
+/*两端对齐，第一个没左边距，最后一个没有右边距*/
+.df-jcsb{display:flex;justify-content: space-between;}
+/*两端对齐，第一个没左边距，最后一个没有右边距，换行版*/
+.df-jcsbw{display:flex;justify-content: space-between;flex-wrap:wrap;}
+.fw{flex-wrap: wrap}
+
+
+
+
+
+
+
+
+/* font-size */
+.f16{font-size:1.6rem;}
+.f50{font-size:5rem;}
+/* percent width value */
+.pct100{width:100%;}
+.pct80{width:80%;
+    /*border:0.1rem solid #ff0000;*/
+}
+.pct50{width:50%;}
+.pct25{width:25%;}
+.pct20{width:20%;}
+.pct30{width:30%;}
+.pct33{width:33.3%;}
+/* fixed width value */
+.w280{width:280px;}
+
+
+
+
+/*font-color*/
+.co20B{color:#20B176;}
+.co5fc{color:#5fc0cd;}
+.cofff{color:#fff;}
+.co000{color:#000;}
+.coff0{color:#ff0000;}
+.coff4{color:#ff4500;}
+
+
+
+.bg20B{background:#20B176;}
+.bgfff{background:#fff;}
+/* white-space */
+.nowrap{white-space:nowrap;}
+/* 单行文字溢出虚点显 示*/
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+/*最大宽最大高*/
+.ma-wh25{max-width: 2.5rem;max-height:2.5rem;}
+.mi-h250{min-height: 25rem;}
+.mb20{margin-bottom:2rem;}
+/*.mb-0{margin:0;padding:0;}*/
+
+
+
+
+
+
+
+
+/*投影*/
+.drop-sb{filter:drop-shadow(5px 5px 10px black)}
+
+.tdno{text-decoration:none;}
+
+/*段落缩进*/
+.ti2{text-indent: 2em;}
+/*文字词组不换行*/
+
+/*上下内边距10px*/
+.ptb05{padding-top:5px;padding-bottom:5px;}
+.ptb10{padding-top:10px;padding-bottom:10px;}
+.ptb12{padding-top:1.2rem;padding-bottom:1.2rem;}
+.ptb15{padding-top:1.5rem;padding-bottom:1.5rem;}
+.ptb20{padding-top:2rem;padding-bottom:2rem;}
+.mr5{margin-right:0.5rem;}
+.mr0{margin-right:0;}
+.pb1{padding-bottom:1rem;}
+.mdclear{margin0;padding:0;}
+/*去除样式*/
+.lsno{list-style:none;}
+
+
+
+.mlneg15{margin-left:-15px;}
+.plneg15{padding-left:-15px;}
+
+
+
+
+
+
+
+
+
+
+.bdr-1sfff{border-right:1px solid #fff;}
+.bdb-1sd0d{border-bottom:1px solid #d0d6d9; }
+.bd-1sd0d{border:1px solid #d0d6d9; }
+.bd-1sff0{border:1px solid #ff0000; }
+
+
+.fw600{font-weight: 600;}
+.fw-no{font-weight: normal;}
+/*table的线条叠加合并*/
+.bcc{ border-collapse:collapse;}
+.bdno{border:none;}
+-----透明实现-----
+
+/*rgba的高级用法：（前三个代表颜色，最后一个数值取1时代表不透明,使用时，改一下颜色）*/
+.bg-rgba0{background-color: rgba(0,0,0,0.76);}
+/*filter:alpha(Opacity=50);-moz-Opacity:0.5;opacity:0.5;实现透明效果*/
+.bg-alpha0{background:#000;filter:alpha(Opacity=50);-moz-Opacity:0.5;opacity:0.5;}
+
+
+.vh{visibility: hidden;}
