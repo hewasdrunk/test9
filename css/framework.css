@@ -13,31 +13,57 @@ footer{flex: 0 0 auto;}
 /* ---------------------具体的头部设置----------------------- */
 /*-----头部top设置-----*/
 
-#top:hover #three{
-    visibility: visible;
+.header-dot-333 {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #333;
+    font-size: 15px;
 }
-#three img{max-width: 1.4rem;}
-#top a{text-decoration:none;color:#000;}
-#top{
-    height:2.5rem;
-    line-height: 2.5rem;
-    font-size: 14px;background:#fff;
+@media only screen and (max-width: 500px) {
+    .header-dot-333 {
+        margin-right: 2px;
+        margin-left: 0px;
+        color: #333;
+        font-size: 15px;
+    }
 }
 
+.container:before{
+    display: table;
+    content: " ";
+}
+.container:after {
+    clear: both;
+}
+.lh40{line-height:40px;}
+#lownding a:hover{color:#20B176;text-decoration:none;}
+#lownding a{color:#000;}
 
+/*---------------------------------------------------------*/
 /*-----头部导航设置-----*/
 ul,li{margin:0;padding:0;}
-#navbar-h .navbar-brand img{max-width: 8rem;margin-top:-8px;}
-/*#sumnav{margin:0;padding:0;}*/
-#navbar-h{
-    /*height:5.5rem;*/
-    padding-top:1rem;
-    padding-bottom:1rem;
-    margin-bottom:0;
-    /*margin-bottom:0;这个必须设置，才能让header的多余空白去掉*/
-    background:#20B176;border:none;
+#h-nav,#h-nav .navbar{
+    min-height: 97px;
+    line-height: 97px!important;
+    background: #20B176;
+    border-style:none;
+    box-shadow:none;
+    margin-bottom: 0;
+    /*!*margin-bottom:0;这个必须设置，才能让header的下方的多余空白去掉*!*/
+    /*padding-left: 3px;*/
+    /*padding-left: 0;去掉左边图标的一点作内边距*/
+    /*padding-right:15px;*/
 }
-#navbar-h a{color:white;}
+#h-nav li{
+    text-align: center;
+    margin-left:32px;
+    height: 97px;}
+#h-nav a{text-decoration: none;color:white;}
+#h-nav li:hover{border-bottom:0.2rem solid #fff;}
+#h-cell-1{margin-right:0;}
+
+
+
 
 /*-----轮播图设置-----*/
 .morohology-1{
@@ -66,11 +92,18 @@ footer{
     background:#20B176;
 }
 .f-cess-1{padding-top:2rem;}
-.f-cess-1 ul{margin:2rem 0;}
-.f-cess-1 ul li{display:inline-block;padding:0.5rem 0.5rem;}
-.f-cess-1 ul li:first-child{padding-left:0;}
+.f-cess-1 ul{margin:1rem 0;}
+.f-cess-1 ul li{display:inline-block;
+    margin:1rem 0;
+}
 
-.f-cess-1 ul li a{text-decoration: none;color:#fff;}
+.f-cess-1 ul li a{
+    text-decoration: none;color:#fff;
+    padding-right:0.5rem;
+}
+.f-cess-1 ul li:hover a{
+    border-bottom:0.1rem solid #fff;
+}
 .f-cess-1 h5{
     font-size: 1.5rem;
     color:#fff;
@@ -79,10 +112,9 @@ footer{
 
 #f-row-1{position: relative;}
 .f-cess-3{
-    /*float:right;*/
     position:absolute;
-    top:1rem;
-    right:0;
+    bottom:2rem;
+    right:15px;
     color:#fff;
 }
 .f-cess-3 h5{

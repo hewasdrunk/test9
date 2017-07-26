@@ -15,31 +15,34 @@
 
 
 .left-cell{
+    width:100%;
+    position:relative;
+    height:600px;
     background:#fff;
     text-align: center;
     margin-bottom:30px;
+
     font-size:1.5rem;
     border: 1px solid lightgrey;
     border-radius: 1%;
     box-shadow: 0 1px 2px lightgrey;
 }
 .left-cell h4{
-    margin:0;
-    width:100%;
+    /*margin:0;padding:0;*/
+    /*width:100%;*/
     height:4rem;
     line-height:4rem;
     border-bottom: 1px solid lightgrey;
 }
 
 .left-cell ul{
-    width:100%;
-    margin-bottom:0;
+    /*width:50%;*/
     padding:1.8rem 0;
 }
 .left-cell li{
-    margin-left:45%;
+    /*width:50%;*/
     margin-bottom:1.5rem;
-    text-align: left;
+    /*text-align: left;*/
 }
 .left-cell li a{text-decoration:none;color:#20B176;}
 .circle{
