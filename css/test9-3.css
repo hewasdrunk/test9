@@ -4,7 +4,7 @@ ul,li{margin:0;padding:0;}
 /*-----指示性-----*/
 .si-1{
     padding:0 0.5rem;
-    font-size: 2rem;
+    font-size: 20px;
 }
 .avator-nav-1 li{display:inline-block;}
 .avator-nav-1 li a{
@@ -19,7 +19,7 @@ ul,li{margin:0;padding:0;}
     color:white;
 }
 .avator-nav-1:before{ content:"方向：";
-    color:#d0d6d9;
+    color:gray;
     font-size:1.4rem;
     float:left;
     padding:8px 0;
