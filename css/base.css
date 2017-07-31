@@ -67,7 +67,7 @@ html{font-size:62.5%;font-family:"Microsoft YaHei",sans-serif;}
 /*两端对齐，第一个没左边距，最后一个没有右边距，换行版*/
 .df-jcsbw{display:flex;justify-content: space-between;flex-wrap:wrap;}
 .fw{flex-wrap: wrap}
-
+.df-jcsbc{display:flex;justify-content: space-between;align-items: center;}
 
 
 

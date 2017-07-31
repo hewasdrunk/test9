@@ -11,6 +11,10 @@ footer{flex: 0 0 auto;}
 
 
 /* ---------------------具体的头部设置----------------------- */
+body{
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", SimSun, SimHei;
+    -webkit-font-smoothing: antialiased;
+}
 /*-----头部top设置-----*/
 
 .header-dot-333 {
@@ -18,14 +22,6 @@ footer{flex: 0 0 auto;}
     margin-left: 8px;
     color: #333;
     font-size: 15px;
-}
-@media only screen and (max-width: 500px) {
-    .header-dot-333 {
-        margin-right: 2px;
-        margin-left: 0px;
-        color: #333;
-        font-size: 15px;
-    }
 }
 
 .container:before{
@@ -42,25 +38,54 @@ footer{flex: 0 0 auto;}
 /*---------------------------------------------------------*/
 /*-----头部导航设置-----*/
 ul,li{margin:0;padding:0;}
-#h-nav,#h-nav .navbar{
-    min-height: 97px;
-    line-height: 97px!important;
+
+
+
+.h-nav,.h-nav .navbar-default{
+    text-align:center;
     background: #20B176;
+}
+.h-nav .navbar-default{
+
     border-style:none;
     box-shadow:none;
     margin-bottom: 0;
     /*!*margin-bottom:0;这个必须设置，才能让header的下方的多余空白去掉*!*/
-    /*padding-left: 3px;*/
-    /*padding-left: 0;去掉左边图标的一点作内边距*/
-    /*padding-right:15px;*/
 }
-#h-nav li{
-    text-align: center;
+#h-cell-1 li{height:97px;}
+#h-cell-1 a{
+    display:inline-block;
+    position:relative;
+    width:40px;
+    height:97px;
     margin-left:32px;
-    height: 97px;}
-#h-nav a{text-decoration: none;color:white;}
-#h-nav li:hover{border-bottom:0.2rem solid #fff;}
-#h-cell-1{margin-right:0;}
+    border-bottom:2px solid #20B176;
+    font-size:17.8px;
+    text-decoration: none;color:white;
+}
+#h-cell-1 a span{width:40px;}
+@media only screen and (max-width: 700px) {
+    #h-cell-1 li{height:auto;}
+    #h-cell-1 a{height:20px;width:100%;margin:0;padding:0;overflow:hidden;}
+    #h-cell-1 a span{height:auto;}
+}
+
+
+.navbar-header{position: relative;height:97px;}
+.navbar-brand{
+    padding:0;
+
+    }
+.navbar-header img{position:absolute;
+    left:20px;}
+.navbar-header button{position:absolute;
+    margin:0;
+    right:20px;}
+
+
+
+
+#h-cell-1 a:hover{border-bottom:2px solid #fff;}
 
 
 
